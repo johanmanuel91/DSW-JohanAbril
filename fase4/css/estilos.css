@@ -1,0 +1,25 @@
+header{
+background-color:#C2DED1;
+padding: 30px;    
+}
+article{ 
+    background-color: #ECE5C7;
+    grid-column: 1/4;
+}
+aside{ 
+    background-color: #354259;
+    color: white;
+    grid-column:4/5 ;
+}
+footer{ 
+    background-color: #C2DED1;
+    color: black;
+    padding: 10px;
+}
+nav{ 
+    background-color: #CDC2AE;
+}
+section{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
